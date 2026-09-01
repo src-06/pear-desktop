@@ -13,7 +13,7 @@ export default createPlugin<
   description: () => t('plugins.compact-sidebar.description'),
   restartNeeded: false,
   config: {
-    enabled: false,
+    enabled: true,
   },
   renderer: {
     getCompactSidebar: () => document.querySelector('#mini-guide'),
